@@ -1,0 +1,17 @@
+name: TestPlugin
+version: '${project.version}'
+main: br.com.ericknathan.test.Main
+api-version: 1.16
+authors: [ ericknathan ]
+description: Cool test plugin
+commands:
+  test:
+    description: Test command
+  console:
+    description: Console command
+  heal:
+    description: Heal yourself
+    usage: /heal
+    aliases: [ h ]
+  config:
+  restricted:
